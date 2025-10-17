@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="with=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=GFS+Didot&family=Libertinus+Math&family=Manufacturing+Consent&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wdth,wght@0,75,100..900;1,75,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=GFS+Didot&family=Libertinus+Math&family=Manufacturing+Consent&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wdth,wght@0,75,100..900;1,75,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/index.css">
+        <title>minimol España | Moda minimalista</title>
+    </head>
+
+    <body>
+
+        <!--Todos los elementos <a> están configurados para navegar entre páginas pero, actualmente, no llevan a ninguna página existente-->
+
+        <header>
+            <div class="container">
+                <div class="buscador">
+
+                    <!--La función de búsqueda está desactivada, pero está configurada para que el usuario acceda a otra página que le muestre los resultados-->
+
+                    <form id="busqueda" action="/resultados-de-busqueda.html" method="get">
+                        <div class="busqueda-envoltorio">
+                            <input type="text" id="buscar" name="q" placeholder="Buscar" required>
+                            <button type="submit" class="boton-busqueda"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg></button>
+                        </div>
+                    </form>
+                </div>
+                <h1>minimol</h1>
+                <div class="nav">
+                    <nav>
+
+                        <!--El usuario puede acceder a los productos de la tienda, a su lista de artículos deseados, a su perfil y a la cesta de compra-->
+
+                        <a href="content/productos.html">Tienda</a>
+                        <a href="content/favoritos.html"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M480-388q51-47 82.5-77.5T611-518q17-22 23-38.5t6-35.5q0-36-26-62t-62-26q-21 0-40.5 8.5T480-648q-12-15-31-23.5t-41-8.5q-36 0-62 26t-26 62q0 19 5.5 35t22.5 38q17 22 48 52.5t84 78.5ZM200-120v-640q0-33 23.5-56.5T280-840h400q33 0 56.5 23.5T760-760v640L480-240 200-120Zm80-122 200-86 200 86v-518H280v518Zm0-518h400-400Z"/></svg></a>
+                        <a href="content/perfil.html"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 640 640" width="30px"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M320 312C386.3 312 440 258.3 440 192C440 125.7 386.3 72 320 72C253.7 72 200 125.7 200 192C200 258.3 253.7 312 320 312zM290.3 368C191.8 368 112 447.8 112 546.3C112 562.7 125.3 576 141.7 576L498.3 576C514.7 576 528 562.7 528 546.3C528 447.8 448.2 368 349.7 368L290.3 368z"/></svg></a>
+                        <a href="content/cesta-de-compra.html"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M240-80q-33 0-56.5-23.5T160-160v-480q0-33 23.5-56.5T240-720h80q0-66 47-113t113-47q66 0 113 47t47 113h80q33 0 56.5 23.5T800-640v480q0 33-23.5 56.5T720-80H240Zm0-80h480v-480h-80v80q0 17-11.5 28.5T600-520q-17 0-28.5-11.5T560-560v-80H400v80q0 17-11.5 28.5T360-520q-17 0-28.5-11.5T320-560v-80h-80v480Zm160-560h160q0-33-23.5-56.5T480-800q-33 0-56.5 23.5T400-720ZM240-160v-480 480Z"/></svg></a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <div class="hero">
+                    
+                    <!--Al pulsar en el botón, se accedería a la página de productos-->
+
+                    <a href="content/productos.html">Comprar</a>
+                </div>
+
+            </section>
+
+            <section class="container">
+                <div class="tendencias">
+
+                    <!--Esta es la sección de tendencias, donde el usuario puede visualizar y añadir a favoritos y a la cesta de compra los productos más populares-->
+
+                    <h2>Tendencias</h2>
+                    <div class="tarjeta">
+                        <div class="producto">
+                            <img src="images/jersey.jpg" alt="jersey de punto">
+                            <a href="content/producto-1.html">JERSEY DE PUNTO</a>
+                            <div class="precio-fav">
+                                <p>17,99 €</p>
+                                <button class="boton-añadir" data-product-id="1" type="button" onclick="setTimeout(function(){displayModalFavoriteWarning()})"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M480-388q51-47 82.5-77.5T611-518q17-22 23-38.5t6-35.5q0-36-26-62t-62-26q-21 0-40.5 8.5T480-648q-12-15-31-23.5t-41-8.5q-36 0-62 26t-26 62q0 19 5.5 35t22.5 38q17 22 48 52.5t84 78.5ZM200-120v-640q0-33 23.5-56.5T280-840h400q33 0 56.5 23.5T760-760v640L480-240 200-120Zm80-122 200-86 200 86v-518H280v518Zm0-518h400-400Z"/></svg></button>
+                            </div>
+                            <button class="boton-añadir" data-product-id="1" type="button" onclick="setTimeout(function(){displayModalCartWarning()})"><span>Añadir a la cesta</span></button>
+                        </div>
+                        <div class="producto">
+                            <img src="images/pantalones-1.jpg" alt="pantalones beige">
+                            <a href="content/producto-2.html">PANTALÓN LINO</a>
+                            <div class="precio-fav">
+                                <p>25,99 €</p>
+                                <button class="boton-añadir" data-product-id="2" type="button" onclick="setTimeout(function(){displayModalFavoriteWarning()})"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M480-388q51-47 82.5-77.5T611-518q17-22 23-38.5t6-35.5q0-36-26-62t-62-26q-21 0-40.5 8.5T480-648q-12-15-31-23.5t-41-8.5q-36 0-62 26t-26 62q0 19 5.5 35t22.5 38q17 22 48 52.5t84 78.5ZM200-120v-640q0-33 23.5-56.5T280-840h400q33 0 56.5 23.5T760-760v640L480-240 200-120Zm80-122 200-86 200 86v-518H280v518Zm0-518h400-400Z"/></svg></button>
+                            </div>
+                            <button class="boton-añadir" data-product-id="2" type="button" onclick="setTimeout(function(){displayModalCartWarning()})"><span>Añadir a la cesta</span></button>
+                        </div>
+                        <div class="producto">
+                            <img src="images/vestido.jpg" alt="vestido negro">
+                            <a href="content/producto-3.html">VESTIDO AJUSTADO</a>
+                            <div class="precio-fav">
+                                <p>22,99 €</p>
+                                <button class="boton-añadir" data-product-id="3" type="button" onclick="setTimeout(function(){displayModalFavoriteWarning()})"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M480-388q51-47 82.5-77.5T611-518q17-22 23-38.5t6-35.5q0-36-26-62t-62-26q-21 0-40.5 8.5T480-648q-12-15-31-23.5t-41-8.5q-36 0-62 26t-26 62q0 19 5.5 35t22.5 38q17 22 48 52.5t84 78.5ZM200-120v-640q0-33 23.5-56.5T280-840h400q33 0 56.5 23.5T760-760v640L480-240 200-120Zm80-122 200-86 200 86v-518H280v518Zm0-518h400-400Z"/></svg></button>
+                            </div>
+                            <button class="boton-añadir" data-product-id="3" type="button" onclick="setTimeout(function(){displayModalCartWarning()})"><span>Añadir a la cesta</span></button>
+                        </div>
+                        <div class="producto">
+                            <img src="images/pantalones-2.jpg" alt="pantalones marrones">
+                            <a href="content/producto-4.html">PANTALÓN SASTRE</a>
+                            <div class="precio-fav">
+                                <p>19,99 €</p>
+                                <button class="boton-añadir" data-product-id="4" type="button" onclick="setTimeout(function(){displayModalFavoriteWarning()})"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M480-388q51-47 82.5-77.5T611-518q17-22 23-38.5t6-35.5q0-36-26-62t-62-26q-21 0-40.5 8.5T480-648q-12-15-31-23.5t-41-8.5q-36 0-62 26t-26 62q0 19 5.5 35t22.5 38q17 22 48 52.5t84 78.5ZM200-120v-640q0-33 23.5-56.5T280-840h400q33 0 56.5 23.5T760-760v640L480-240 200-120Zm80-122 200-86 200 86v-518H280v518Zm0-518h400-400Z"/></svg></button>
+                            </div>
+                            <button class="boton-añadir" data-product-id="4" type="button" onclick="setTimeout(function(){displayModalCartWarning()})"><span>Añadir a la cesta</span></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container">
+                <div class="coleccion">
+
+                    <!--Aquí se presenta la nueva colección de la marca con un breve descriptor-->
+
+                    <h2>Nueva colección</h2>
+                    <div class="info-coleccion">
+                        <h3>Afterglow</h3>
+                        <div class="descripcion">
+                            <img src="images/nueva-coleccion-2.jpg" alt="Foto de la nueva colección">
+                            <div class="afterglow">
+                                <p><em>Afterglow</em> es la luz que sale tras la despedida del sol. Es ese instante en el que el calor del verano aún flota en el aire, pero el día ya empieza a desvanecerse. Es un homenaje a los momentos que persisten — la piel aún dorada, los recuerdos de días largos, la calma que llega tras el brillo.<br><br>
+                                Esta colección captura la belleza del cierre, la transición entre la efervescencia y la quietud, entre lo vívido y lo que está por venir.</p><br><br>
+                                <p>Texturas: lino lavado, algodón ligero, seda mate, tejidos con caída natural.</p>
+                                <p>Sensación: nostalgia cálida, elegancia relajada, sutileza luminosa.</p><br><br>
+                                <a href="content/nueva-coleccion.html">Descubrir más<span>&#8594;</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container">
+                <div class="imagen">
+
+                    <!--Aquí se habla un poco de la marca y de su mensaje-->
+
+                    <h2>Nuestra imagen</h2>
+                    <div class="info_marca">
+                        <h3><em>Menos, pero mejor</em></h3>
+                        <p><strong>minimol</strong> nace de una idea sencilla: que la belleza no necesita ruido. Creemos en el valor de lo esencial, en el poder del silencio visual y en las prendas que respiran intención. Cada diseño surge desde la búsqueda del equilibrio — entre forma y función, entre tendencia y permanencia. <br><br>
+                        Nuestro lema, <strong>"menos, pero mejor"</strong>, guía cada decisión: desde los materiales hasta las líneas de corte. Apostamos por una moda que dura, que no compite con el cuerpo, sino que lo acompaña. <br><br>
+                        En un mundo lleno de estímulos, <strong>minimol</strong> elige la calma. Cada colección es una pausa, una invitación a vestir con consciencia, a encontrar belleza en la simplicidad y fuerza en la sutileza.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container">
+                <div class="rrss">
+
+                    <!--En esta última sección se muestran las redes sociales de la marca-->
+
+                    <h2>Conecta con minimol</h2>
+                    <div class="redes">
+                        <a href="/tiktok-minimol"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="30px" height="30px"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M544.5 273.9C500.5 274 457.5 260.3 421.7 234.7L421.7 413.4C421.7 446.5 411.6 478.8 392.7 506C373.8 533.2 347.1 554 316.1 565.6C285.1 577.2 251.3 579.1 219.2 570.9C187.1 562.7 158.3 545 136.5 520.1C114.7 495.2 101.2 464.1 97.5 431.2C93.8 398.3 100.4 365.1 116.1 336C131.8 306.9 156.1 283.3 185.7 268.3C215.3 253.3 248.6 247.8 281.4 252.3L281.4 342.2C266.4 337.5 250.3 337.6 235.4 342.6C220.5 347.6 207.5 357.2 198.4 369.9C189.3 382.6 184.4 398 184.5 413.8C184.6 429.6 189.7 444.8 199 457.5C208.3 470.2 221.4 479.6 236.4 484.4C251.4 489.2 267.5 489.2 282.4 484.3C297.3 479.4 310.4 469.9 319.6 457.2C328.8 444.5 333.8 429.1 333.8 413.4L333.8 64L421.8 64C421.7 71.4 422.4 78.9 423.7 86.2C426.8 102.5 433.1 118.1 442.4 131.9C451.7 145.7 463.7 157.5 477.6 166.5C497.5 179.6 520.8 186.6 544.6 186.6L544.6 274z"/></svg></a>
+                        <a href="/instagram-minimol"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="30px" height="30px"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M320.3 205C256.8 204.8 205.2 256.2 205 319.7C204.8 383.2 256.2 434.8 319.7 435C383.2 435.2 434.8 383.8 435 320.3C435.2 256.8 383.8 205.2 320.3 205zM319.7 245.4C360.9 245.2 394.4 278.5 394.6 319.7C394.8 360.9 361.5 394.4 320.3 394.6C279.1 394.8 245.6 361.5 245.4 320.3C245.2 279.1 278.5 245.6 319.7 245.4zM413.1 200.3C413.1 185.5 425.1 173.5 439.9 173.5C454.7 173.5 466.7 185.5 466.7 200.3C466.7 215.1 454.7 227.1 439.9 227.1C425.1 227.1 413.1 215.1 413.1 200.3zM542.8 227.5C541.1 191.6 532.9 159.8 506.6 133.6C480.4 107.4 448.6 99.2 412.7 97.4C375.7 95.3 264.8 95.3 227.8 97.4C192 99.1 160.2 107.3 133.9 133.5C107.6 159.7 99.5 191.5 97.7 227.4C95.6 264.4 95.6 375.3 97.7 412.3C99.4 448.2 107.6 480 133.9 506.2C160.2 532.4 191.9 540.6 227.8 542.4C264.8 544.5 375.7 544.5 412.7 542.4C448.6 540.7 480.4 532.5 506.6 506.2C532.8 480 541 448.2 542.8 412.3C544.9 375.3 544.9 264.5 542.8 227.5zM495 452C487.2 471.6 472.1 486.7 452.4 494.6C422.9 506.3 352.9 503.6 320.3 503.6C287.7 503.6 217.6 506.2 188.2 494.6C168.6 486.8 153.5 471.7 145.6 452C133.9 422.5 136.6 352.5 136.6 319.9C136.6 287.3 134 217.2 145.6 187.8C153.4 168.2 168.5 153.1 188.2 145.2C217.7 133.5 287.7 136.2 320.3 136.2C352.9 136.2 423 133.6 452.4 145.2C472 153 487.1 168.1 495 187.8C506.7 217.3 504 287.3 504 319.9C504 352.5 506.7 422.6 495 452z"/></svg></a>
+                        <a href="/facebook-minimol"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="30px" height="30px"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M240 363.3L240 576L356 576L356 363.3L442.5 363.3L460.5 265.5L356 265.5L356 230.9C356 179.2 376.3 159.4 428.7 159.4C445 159.4 458.1 159.8 465.7 160.6L465.7 71.9C451.4 68 416.4 64 396.2 64C289.3 64 240 114.5 240 223.4L240 265.5L174 265.5L174 363.3L240 363.3z"/></svg></a>
+                        <a href="/youtube-minimol"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="30px" height="30px"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M581.7 188.1C575.5 164.4 556.9 145.8 533.4 139.5C490.9 128 320.1 128 320.1 128C320.1 128 149.3 128 106.7 139.5C83.2 145.8 64.7 164.4 58.4 188.1C47 231 47 320.4 47 320.4C47 320.4 47 409.8 58.4 452.7C64.7 476.3 83.2 494.2 106.7 500.5C149.3 512 320.1 512 320.1 512C320.1 512 490.9 512 533.5 500.5C557 494.2 575.5 476.3 581.8 452.7C593.2 409.8 593.2 320.4 593.2 320.4C593.2 320.4 593.2 231 581.8 188.1zM264.2 401.6L264.2 239.2L406.9 320.4L264.2 401.6z"/></svg></a>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="fin-pagina">
+
+                <!--En el pie de página se indica información adicional sobre la marca de cara al cliente-->
+
+                <h1>minimol</h1>
+                <div class="vertical"></div>
+                <div class="nav-fin">
+                    <a href="content/sobre-nosotros.html">Sobre nosotros</a>
+                    <a href="content/faq.html">FAQ</a>
+                    <a href="content/privacidad-y-datos.html">Política de Privacidad y Protección de Datos</a>
+                    <a href="content/contacto.html">Contacto</a>
+                    <a href="content/envios-y-devoluciones.html">Envíos y devoluciones</a>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+
+</html>
